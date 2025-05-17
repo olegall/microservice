@@ -37,8 +37,8 @@ namespace MicroCommerce.Web
                 await next();
             });
             app.UseStaticFiles();
-            app.UseWebApiRedirect("api/products", new WebApiEndpoint<IProductCatalog>(new System.Uri("http://localhost:5001")));
-            app.UseWebApiRedirect("api/orders", new WebApiEndpoint<IShoppingCart>(new System.Uri("http://localhost:5002")));
+            app.UseWebApiRedirect("api/products", new WebApiEndpoint<IProductCatalog>(new System.Uri("http://localhost:5001"))); //  реагирует на /add
+            app.UseWebApiRedirect("api/orders", new WebApiEndpoint<IShoppingCart>(new System.Uri("http://localhost:5002"))); // реагирует на /delete
             app.UseWebApiRedirect("api/logs", new WebApiEndpoint<IActivityLogger>(new System.Uri("http://localhost:5003")));
 
             //app.UseCorrelationToken();
