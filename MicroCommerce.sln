@@ -19,6 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart", "MicroCommer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{B0A26E8F-A623-4CFB-AD93-FE6CF8C62DFE}"
 	ProjectSection(SolutionItems) = preProject
+		architecture.drawio = architecture.drawio
 		README.md = README.md
 	EndProjectSection
 EndProject
