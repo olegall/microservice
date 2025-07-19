@@ -1,4 +1,4 @@
-https://habr.com/ru/articles/649363/
+https://habr.com/ru/articles/492442/
 
 Запустить проекты ActivityLogger, ProductCatalog, ShoppingCart, WebUI
 
@@ -21,9 +21,10 @@ RabbitMQ
 
 Архитектура: в файле architecture.drawio
 
-
 # загрузка рэббита
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4-management - образ сам установится, потом запустится
 или
 1. скачать образ https://hub.docker.com/_/rabbitmq docker pull rabbitmq
 2. docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4-management
+
+UI логин/пароль guest/guest
